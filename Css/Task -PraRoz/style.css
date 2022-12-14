@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background:url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-container{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+}
+
+.logo{
+    width: 10%;
+    height: 70px;
+    /* background-color: gray; */
+}
+
+.logo span{
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    top: 14px;
+    color:#ff7200;
+}
+
+.list-items{
+    width: 70%;
+}
+
+.list-items ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.list-items li{
+    list-style: none;
+    margin: auto;
+    color: white;
+}
+
+.list-items li:hover{
+    color: #ff7200;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.btn-container{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container input{
+    margin:auto;
+    padding: 10px;
+    background-color:transparent ;
+    border: 1px solid #ff7200;
+    outline: none;
+    color: white;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px ;
+}
+
+.btn-container button{
+    padding: 10px;
+    width: 7rem;
+    background-color: #ff7200;
+    color: white;
+    border: 1px solid #ff7200;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-weight: bold;
+}
+/* -------------------------------------------------------------------------- */
+
+.home-container{
+    /* background-color: black; */
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.heading-container h1{
+    color: white;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.heading-container span{
+    color: #ff7200;
+    font-size: 50px;
+}
+
+.heading-container p{
+    color: white;
+    line-height:2rem ;
+    letter-spacing: 1.2px;
+
+}
+
+.heading-container button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 8rem;
+    background-color: #ff7200;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.heading-container button:hover{
+    background-color: white;
+    color: #ff7200;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+/* ------------------------------------------------------------------- */
+
+.form-container{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(1, 3, 0, 0.70);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.form-container h2{
+    color: #ff7200;
+    padding: 8px;
+    background-color: white;
+    width: 85%;
+    text-align: center;
+    border-radius:6px ;
+}
+.form-container input{
+    width: 85% ;
+    padding: 8px;
+    background-color: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.form-container button{
+    padding: 9px;
+    width: 85%;
+    background-color: #ff7200;
+    border: none;
+    border-radius: 6px;
+    font-weight:bold ;
+}
+
+.form-container p {
+    color: white;
+}
+
+.form-container a{
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.form-container span{
+    color: white;
+}

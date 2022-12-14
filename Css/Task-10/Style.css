@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: red;
+}
+#heading 1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading 2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+#heading 3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-weight: 700;
+   font-family: "Dancing Script", cursive;
+}
+.box{
+
+width: 10rem;
+height: 10rem;
+border: 2px solid purple;
+}
+#box1 {
+    position: relative;
+    background-color: yellow;
+    z-index: 2;
+}
+#box2 {
+    position: relative;
+    background-color: hotpink;
+    margin-top: -5rem;
+    margin-left: +5rem;
+    z-index: 0;
+}
+#box3 {
+    background-color: cyan;
+    border: 2px solid green;
+    min-width: 30vw;
+    max-height: 30vh;
+}
+#heading4 {
+background-color: aqua;
+display: inline;
+width: 10rem;
+height: 10rem;
+
+}
+#link2 {
+    background-color: chartreuse;
+    display: block;
+    height: 5rem;
+}
+#link2 {
+    background-color: paleturquoise;
+    display: inline-block;
+}
+#card{
+    background-color: aqua;
+}
+#relativeBtn {
+    background-color: chartreuse;
+    position: relative;
+    left: 1rem;
+}
+#absoluteBtn {
+    background-color: chartreuse;
+    position: relative;
+    right: 1rem;
+    top: 1rem;
+}
+#WhatsApp {
+    background-color: rgb(20, 238, 0);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+    position:fixed;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+}
+#WhatsApp :hover {
+    background-color: orange;
+}
+#sticky {
+background-color: orange;
+position: sticky;
+}

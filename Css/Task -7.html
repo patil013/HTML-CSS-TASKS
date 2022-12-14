@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        #parent,
+        #parent2{
+        background-color:red;
+       } 
+
+    #parent p{
+        background-color:blue;
+
+    }
+    #parent2>p{
+        background-color:blue;
+        
+    }
+    #parent2+h1{
+        background-color:green !important;
+    }
+    #parent2~h1{
+        background-color:aqua;
+    }
+    /*psuedo classes and elements*/
+    #googlelink:hover{
+        background-color:rgb(180, 180, 38);
+        color:white;
+        padding: 1OPX;
+    }
+
+        #psuedoElements> p ::first-letter{
+        background-color:red;
+    
+    }
+    #psuedoElements> p::first-letter {
+        background-color:rgb(180, 180, 38);
+        font-weight: bold;
+        font-size: 30px;
+    }
+    li:first-child {
+        background-color: yellow;
+
+    }
+    li:nth-child(4){
+        background-color: orangered;
+
+    }
+    li:last-child {
+        background-color: purple;
+
+    }
+
+    input{
+        padding: 10px;
+        width: 100px;
+        
+    }
+    input[type="submit"]{
+        background-color: green;
+        color:white;
+        width:15%
+        outline: none;
+       
+    }
+</style>
+
+</head>
+<body>
+    <div id="parent">
+        <h1>Hello</h1>
+        <p>Hello lorem ipsum doller sit amet.</p>
+        <h1>HELLO</h1>
+        <p>Hello lorem ipsum doler, sit amet consectetur adipisicing</p>
+
+        <span>
+            <p>lorem ipsum doler, sit amet.</p>
+     </span>
+    </div>
+    
+    <div id="parent2">
+        <h1>Hello</h1>
+        <p>Hello lorem ipsum doller sit amet.</p>
+        <h1>HELLO</h1>
+        <p>Hello lorem ipsum doler, sit amet consectetur adipisicing</p>
+
+        <span>
+            <p>lorem ipsum doler, sit amet.</p>
+      </span>
+    </div>
+    <h1>lorem ipsum doler, sit amet.</h1>
+    <h1>lorem ipsum doler, sit amet.</h1>
+    <h1>lorem ipsum doler, sit amet.</h1>
+    <p>Hello</p>
+
+    <p>lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+    </p>
+    <hr/>
+    <hr/>
+    <h1>psuedo classes and elements</h1>
+    <a href="http://google.com" id="Googlelink">open Google</a>
+    
+    <a href="http://facebook.com" id="facebooklink">open facebook</a>
+    
+    <a href="http://Gmail.com" id="Gmaillink">open Gmail</a>
+    <div id="psuedoelements">
+    <p>lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amit.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.
+        lorem ipsum doler, sit amet.lorem ipsum doler, sit amet.lorem ipsum doler, sit amit.
+
+    </p>
+    <ul>
+  <li>hello</li>
+  <li>hello</li>
+  <li>hello</li>
+  <li>hello</li>
+  <li>hello</li>
+  <li>hello</li>
+  <li>hello</li>
+</ul>
+
+  <form>
+<input type="text"placeholder="Enter your name">
+<input type="text"placeholder="Password">
+<input type="submit"value="login">
+</form> 
+
+  
+</div>
+</body>
+</html>

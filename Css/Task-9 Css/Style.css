@@ -1,0 +1,60 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: aquamarine;
+}
+#px {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+#emparent{
+    background-color: blue;
+    font-size: 20px;
+}
+
+#em1{
+    background-color: purple;
+}
+
+#em2{
+    background-color: darkred;
+    font-size: 50px !important;
+}
+
+#remparent{
+    background-color: blue;
+    font-size: 20px;
+}
+#rem1{
+    background-color: purple;
+}
+
+#rem2{
+    background-color: darkred;
+    font-size: 5rem !important;
+}
+
+#percentparent {
+    background-color: purple;
+    width: 50%;
+    height: 100px;
+}
+#percent {
+     background-color: yellow;
+     width: 50%;
+    height: 100px;
+}
+
+#vwvhparent {
+    background-color: purple;
+   width: 50%;
+   height: 200px;
+}
+#vwvh {
+    background-color: purple;
+    width: 50vw;
+    height: 200px;
+}
